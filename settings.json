@@ -1,7 +1,8 @@
 {
     "apps": [
-        {"name": "corp web servers", "ports": [80, 443, 8080]},
-        {"name": "corp utilities", "ports": [21, 22, 53]}
+        {"name": "corp web servers", "ports": [80, 443]},
+        {"name": "corp utilities", "ports": [22, 53, 123]},
+        {"name": "corp proxies", "ports": [8080, 8081]}
     ],
     "exec": "terraform"
 }
