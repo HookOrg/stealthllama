@@ -1,6 +1,6 @@
 {
     "apps": [
-        {"name": "corp web servers", "ports": [80, 443, 8080]},
+        {"name": "corp web servers", "ports": [80, 443]},
         {"name": "corp utilities", "ports": [22, 53]},
         {"name": "database services", "ports": [3306]}
     ],
