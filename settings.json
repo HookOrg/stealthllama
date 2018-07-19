@@ -1,8 +1,9 @@
 {
     "apps": [
-        {"name": "corp web servers", "ports": [23, 80, 443]},
-        {"name": "corp utilities", "ports": [22, 53]},
+        {"name": "corp web servers", "ports": [80, 443]},
+        {"name": "corp utilities", "ports": [22, 23, 53]},
+        {"name": "database utilities", "ports": [1433]},
         {"name": "time services", "ports": [123]}
     ],
-    "exec": "terraform"
+    "exec": "ansible"
 }
