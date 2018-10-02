@@ -2,6 +2,7 @@
     "apps": [
         {"name": "corp web servers", "ports": [80, 443]},
         {"name": "corp utilities", "ports": [22, 53]},
+        {"name": "time services", "ports": [123]},
         {"name": "database services", "ports": [1433]}
     ],
     "exec": "ansible"
